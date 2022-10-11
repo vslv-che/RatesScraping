@@ -1,0 +1,741 @@
+    with open(DATAFILE, 'w') as json_file:
+        data = {"banks_list": get_rates_rub()}
+        json.dump(data, json_file)
+    print('000')
+    rts = get_rates_exch_pnts()
+    print('111')
+    with open(DATAFILE, 'a') as json_file:
+        data = {"banks_list": rts}
+        json.dump(data, json_file)
+
+
+[<tr id="db1a2ad1-686e-4946-82ad-50e948642a23">
+<td>1.</td>
+<td class="bank">
+<img align="left" alt="Raykom-Oske-Getak-661-A" border="0" height="16" src="https://rate.am/images/organization/logo/c3c58c61ca8f43c2a3fbd04cd055d7b2.png" width="32"/><a href="/ru/exchange-point/raykom-oske-getak-661-a">Райком Воске Гетак</a></td>
+<td>
+<a class="favS" href="/login.aspx" onmouseover="shTT(this, 'favTXT')"><img alt="star" height="16" src="../images/s.png" width="16"/><span></span></a></td>
+<td><a href="/ru/exchange-point/raykom-oske-getak-661-a">1</a></td>
+<td class="date">11 Окт, 17:05</td>
+<td>407</td>
+<td><span class="best">413</span></td>
+<td>396</td>
+<td>404</td>
+<td>6</td>
+<td><span class="best">6.30</span></td>
+<td>145</td>
+<td>154</td>
+</tr>, <tr id="da92a024-19da-4555-bec7-dc4519ed70f3">
+<td>2.</td>
+<td class="bank">
+<img align="left" alt="VAS-Masiv-767-A" border="0" height="16" src="https://rate.am/images/organization/logo/6ff38fbf57c841c3a4e544fd3b4750b6.gif" width="32"/><a href="/ru/exchange-point/vas-masiv-767-a">VAS Մասիվ</a></td>
+<td>
+<a class="favS" href="/login.aspx" onmouseover="shTT(this, 'favTXT')"><img alt="star" height="16" src="../images/s.png" width="16"/><span></span></a></td>
+<td><a href="/ru/exchange-point/vas-masiv-767-a">1</a></td>
+<td class="date">11 Окт, 17:03</td>
+<td><span class="best">408</span></td>
+<td><span class="best">413</span></td>
+<td>397</td>
+<td>403</td>
+<td>6</td>
+<td><span class="best">6.30</span></td>
+<td>145</td>
+<td>155</td>
+</tr>, <tr id="a4c93182-1cd8-4b01-ac90-a6014a02cbfc">
+<td>3.</td>
+<td class="bank">
+<img align="left" alt="BERKUTMIXMoCharbakh-762" border="0" height="16" src="https://rate.am/images/organization/logo/1d688a327ee04c99adb62661ea15a5cb.jpg" width="32"/><a href="/ru/exchange-point/berkutmixmocharbakh-762">BERKUT.MIX-Mo.Չարբախ</a></td>
+<td>
+<a class="favS" href="/login.aspx" onmouseover="shTT(this, 'favTXT')"><img alt="star" height="16" src="../images/s.png" width="16"/><span></span></a></td>
+<td><a href="/ru/exchange-point/berkutmixmocharbakh-762">1</a></td>
+<td class="date">11 Окт, 17:03</td>
+<td><span class="best">408</span></td>
+<td><span class="best">413</span></td>
+<td>397</td>
+<td><span class="best">402</span></td>
+<td>6</td>
+<td><span class="best">6.30</span></td>
+<td><span class="best">147</span></td>
+<td>154</td>
+</tr>, <tr id="b27dfd5f-f03d-4b74-926e-2a30616e15f8">
+<td>4.</td>
+<td class="bank">
+<img align="left" alt="LEOPARD-801-A" border="0" height="16" src="https://rate.am/images/organization/logo/d1152f7757ed45edba4d84c07b2bdc16.gif" width="32"/><a href="/ru/exchange-point/leopard-801-a">LEOPARD</a></td>
+<td>
+<a class="favS" href="/login.aspx" onmouseover="shTT(this, 'favTXT')"><img alt="star" height="16" src="../images/s.png" width="16"/><span></span></a></td>
+<td><a href="/ru/exchange-point/leopard-801-a">1</a></td>
+<td class="date">11 Окт, 17:03</td>
+<td><span class="best">408</span></td>
+<td>414</td>
+<td>395</td>
+<td>403</td>
+<td>6</td>
+<td><span class="best">6.30</span></td>
+<td>140</td>
+<td>155</td>
+</tr>, <tr id="9bc0d165-d455-4ff0-b132-0f26126d75bf">
+<td>5.</td>
+<td class="bank">
+<img align="left" alt="MAShTOCI-42a-Opera-Supermarket-a-dz-Garegin-Hardashyan-225-A" border="0" height="16" src="https://rate.am/images/organization/logo/429748353a02406e8b3fcd855f3dc70f.jpg" width="32"/><a href="/ru/exchange-point/mashtoci-42a-opera-supermarket-a-dz-garegin-hardashyan-225-a">ՄԱՇՏՈՑԻ 42ա Օպերա Սո..</a></td>
+<td>
+<a class="favS" href="/login.aspx" onmouseover="shTT(this, 'favTXT')"><img alt="star" height="16" src="../images/s.png" width="16"/><span></span></a></td>
+<td><a href="/ru/exchange-point/mashtoci-42a-opera-supermarket-a-dz-garegin-hardashyan-225-a">1</a></td>
+<td class="date">11 Окт, 17:01</td>
+<td><span class="best">408</span></td>
+<td><span class="best">413</span></td>
+<td>395</td>
+<td><span class="best">402</span></td>
+<td>6</td>
+<td><span class="best">6.30</span></td>
+<td>145</td>
+<td>155</td>
+</tr>, <tr id="2a96e59d-17e6-495d-8d0b-b8fb34a63269">
+<td>6.</td>
+<td class="bank">
+<img align="left" alt="AREV-5rd-Masiv-738" border="0" height="16" src="https://rate.am/images/organization/logo/70db799647bb4cb2b090573f97bd0f9c.jpg" width="32"/><a href="/ru/exchange-point/arev-5rd-masiv-738">ԱՐԵՎ 5-րդ Մասիվ</a></td>
+<td>
+<a class="favS" href="/login.aspx" onmouseover="shTT(this, 'favTXT')"><img alt="star" height="16" src="../images/s.png" width="16"/><span></span></a></td>
+<td><a href="/ru/exchange-point/arev-5rd-masiv-738">1</a></td>
+<td class="date">11 Окт, 17:00</td>
+<td><span class="best">408</span></td>
+<td><span class="best">413</span></td>
+<td>395</td>
+<td>403</td>
+<td>6</td>
+<td><span class="best">6.30</span></td>
+<td>140</td>
+<td>160</td>
+</tr>, <tr id="bced18a4-6a80-4ce1-a8fa-da8ae02f63b3">
+<td>7.</td>
+<td class="bank">
+<img align="left" alt="Zovk-ARAY-Amiryan-15-703" border="0" height="16" src="https://rate.am/images/organization/logo/3f3694cb4d744735a0543c42c62db5ef.jpg" width="32"/><a href="/ru/exchange-point/zovk-aray-amiryan-15-703">Զովք (ARAY, Ամիրյան ..</a></td>
+<td>
+<a class="favS" href="/login.aspx" onmouseover="shTT(this, 'favTXT')"><img alt="star" height="16" src="../images/s.png" width="16"/><span></span></a></td>
+<td><a href="/ru/exchange-point/zovk-aray-amiryan-15-703">1</a></td>
+<td class="date">11 Окт, 17:00</td>
+<td><span class="best">408</span></td>
+<td><span class="best">413</span></td>
+<td>397</td>
+<td>403</td>
+<td>6</td>
+<td><span class="best">6.30</span></td>
+<td><span class="best">147</span></td>
+<td>156</td>
+</tr>, <tr id="474ecb38-ab0a-404e-84f2-5d8ff48f5450">
+<td>8.</td>
+<td class="bank">
+<img align="left" alt="GNUNI-1-757" border="0" height="16" src="https://rate.am/images/organization/logo/7b3c3248ac7043d7bda84eb5ee3434db.jpg" width="32"/><a href="/ru/exchange-point/gnuni-1-757">ГНУНИ 1</a></td>
+<td>
+<a class="favS" href="/login.aspx" onmouseover="shTT(this, 'favTXT')"><img alt="star" height="16" src="../images/s.png" width="16"/><span></span></a></td>
+<td><a href="/ru/exchange-point/gnuni-1-757">1</a></td>
+<td class="date">11 Окт, 16:59</td>
+<td><span class="best">408</span></td>
+<td><span class="best">413</span></td>
+<td><span class="best">398</span></td>
+<td>403</td>
+<td>6.05</td>
+<td><span class="best">6.30</span></td>
+<td><span class="best">147</span></td>
+<td>152</td>
+</tr>, <tr id="788ae2e8-0e00-427d-b587-1ad633fc146f">
+<td>9.</td>
+<td class="bank">
+<img align="left" alt="kanach-drakht-609-A" border="0" height="16" src="https://rate.am/images/organization/logo/6122f5f6e62f4aa2ae58697c9fa83900.png" width="32"/><a href="/ru/exchange-point/kanach-drakht-609-a">Կանաչ Դրախտ</a></td>
+<td>
+<a class="favS" href="/login.aspx" onmouseover="shTT(this, 'favTXT')"><img alt="star" height="16" src="../images/s.png" width="16"/><span></span></a></td>
+<td><a href="/ru/exchange-point/kanach-drakht-609-a">1</a></td>
+<td class="date">11 Окт, 16:58</td>
+<td><span class="best">408</span></td>
+<td><span class="best">413</span></td>
+<td><span class="best">398</span></td>
+<td><span class="best">402</span></td>
+<td><span class="best">6.10</span></td>
+<td><span class="best">6.30</span></td>
+<td>144</td>
+<td>154</td>
+</tr>, <tr id="2e6f09bb-e1c9-42f4-8ce3-03aadc567808">
+<td>10.</td>
+<td class="bank">
+<img align="left" alt="MALATIA-TONAVAChAR-OSKU-SRAH-708" border="0" height="16" src="https://rate.am/images/organization/logo/08033004223e45e7870cfd17ae1621f1.png" width="32"/><a href="/ru/exchange-point/malatia-tonavachar-osku-srah-708">Ярмарка Малации (Зол..</a></td>
+<td>
+<a class="favS" href="/login.aspx" onmouseover="shTT(this, 'favTXT')"><img alt="star" height="16" src="../images/s.png" width="16"/><span></span></a></td>
+<td><a href="/ru/exchange-point/malatia-tonavachar-osku-srah-708">1</a></td>
+<td class="date">11 Окт, 16:58</td>
+<td><span class="best">408</span></td>
+<td><span class="best">413</span></td>
+<td>397</td>
+<td><span class="best">402</span></td>
+<td>6</td>
+<td><span class="best">6.30</span></td>
+<td><span class="best">147</span></td>
+<td><span class="best">150</span></td>
+</tr>, <tr id="01a95b8e-b473-4236-a7da-0b91d5acbd8a">
+<td>11.</td>
+<td class="bank">
+<img align="left" alt="SIMAO--LLC-787" border="0" height="16" src="https://rate.am/images/organization/logo/ec23c074e59349f3b19294498f329991.jpg" width="32"/><a href="/ru/exchange-point/simao--llc-787">ԿՈՄԻՏԱՍ "ԵՐԻՑՅԱՆ" ՍՈ..</a></td>
+<td>
+<a class="favS" href="/login.aspx" onmouseover="shTT(this, 'favTXT')"><img alt="star" height="16" src="../images/s.png" width="16"/><span></span></a></td>
+<td><a href="/ru/exchange-point/simao--llc-787">1</a></td>
+<td class="date">11 Окт, 16:57</td>
+<td><span class="best">408</span></td>
+<td><span class="best">413</span></td>
+<td>397</td>
+<td>403</td>
+<td>6</td>
+<td><span class="best">6.30</span></td>
+<td>145</td>
+<td>155</td>
+</tr>, <tr id="387901ba-e52a-45f0-9496-053dd0628231">
+<td>12.</td>
+<td class="bank">
+<img align="left" alt="BIG-SUPERMARKET-854" border="0" height="16" src="https://rate.am/images/organization/logo/d99641b106384d478a8e966c38ea7abd.jpg" width="32"/><a href="/ru/exchange-point/big-supermarket-854">BIG SUPERMARKET</a></td>
+<td>
+<a class="favS" href="/login.aspx" onmouseover="shTT(this, 'favTXT')"><img alt="star" height="16" src="../images/s.png" width="16"/><span></span></a></td>
+<td><a href="/ru/exchange-point/big-supermarket-854">1</a></td>
+<td class="date">11 Окт, 16:57</td>
+<td><span class="best">408</span></td>
+<td><span class="best">413</span></td>
+<td>396</td>
+<td><span class="best">402</span></td>
+<td>6</td>
+<td><span class="best">6.30</span></td>
+<td>145</td>
+<td>155</td>
+</tr>, <tr id="48638682-68b4-4386-aa90-ab5fb5a1659d">
+<td>13.</td>
+<td class="bank">
+<img align="left" alt="Nor-Zovk-Gum-ADz-Lusine-Chalabyan-443-A" border="0" height="16" src="https://rate.am/images/organization/logo/89c2b0912a6f400297e5421547078255.png" width="32"/><a href="/ru/exchange-point/nor-zovk-gum-adz-lusine-chalabyan-443-a">Нор Зовк Гум (ИП Лус..</a></td>
+<td>
+<a class="favS" href="/login.aspx" onmouseover="shTT(this, 'favTXT')"><img alt="star" height="16" src="../images/s.png" width="16"/><span></span></a></td>
+<td><a href="/ru/exchange-point/nor-zovk-gum-adz-lusine-chalabyan-443-a">1</a></td>
+<td class="date">11 Окт, 16:57</td>
+<td><span class="best">408</span></td>
+<td><span class="best">413</span></td>
+<td>395</td>
+<td>403</td>
+<td>6</td>
+<td>6.35</td>
+<td>140</td>
+<td>155</td>
+</tr>, <tr id="188f3d23-b32b-4cb0-b241-c2b093315197">
+<td>14.</td>
+<td class="bank">
+<img align="left" alt="Nor-Zovk-Krivoy-206-A" border="0" height="16" src="https://rate.am/images/organization/logo/19e5f46cff05424c99c1ae42d611d0a9.jpg" width="32"/><a href="/ru/exchange-point/nor-zovk-krivoy-206-a">Նոր Զովք Կրիվոյ</a></td>
+<td>
+<a class="favS" href="/login.aspx" onmouseover="shTT(this, 'favTXT')"><img alt="star" height="16" src="../images/s.png" width="16"/><span></span></a></td>
+<td><a href="/ru/exchange-point/nor-zovk-krivoy-206-a">1</a></td>
+<td class="date">11 Окт, 16:56</td>
+<td><span class="best">408</span></td>
+<td><span class="best">413</span></td>
+<td>397</td>
+<td>403</td>
+<td>6</td>
+<td><span class="best">6.30</span></td>
+<td><span class="best">147</span></td>
+<td>155</td>
+</tr>, <tr id="1585d0ea-0f07-4c32-a6a6-6dffc42d8c2d">
+<td>15.</td>
+<td class="bank">
+<img align="left" alt="Varujan-Avetisyan-478-A" border="0" height="16" src="https://rate.am/images/organization/logo/14df202c3fd94e708fb84387cc0d4d96.png" width="32"/><a href="/ru/exchange-point/varujan-avetisyan-478-a">Варужан Аветисян</a></td>
+<td>
+<a class="favS" href="/login.aspx" onmouseover="shTT(this, 'favTXT')"><img alt="star" height="16" src="../images/s.png" width="16"/><span></span></a></td>
+<td><a href="/ru/exchange-point/varujan-avetisyan-478-a">1</a></td>
+<td class="date">11 Окт, 16:54</td>
+<td><span class="best">408</span></td>
+<td><span class="best">413</span></td>
+<td>397</td>
+<td>403</td>
+<td>6</td>
+<td><span class="best">6.30</span></td>
+<td><span class="best">147</span></td>
+<td>155</td>
+</tr>, <tr id="2f8be6fc-e209-4ca9-82ab-593fca923a76">
+<td>16.</td>
+<td class="bank">
+<img align="left" alt="Central-Hotel-833" border="0" height="16" src="https://rate.am/images/organization/logo/427e9db744644d0792f151560cbf80e6.jpg" width="32"/><a href="/ru/exchange-point/central-hotel-833">Central Hotel</a></td>
+<td>
+<a class="favS" href="/login.aspx" onmouseover="shTT(this, 'favTXT')"><img alt="star" height="16" src="../images/s.png" width="16"/><span></span></a></td>
+<td><a href="/ru/exchange-point/central-hotel-833">1</a></td>
+<td class="date">11 Окт, 16:52</td>
+<td><span class="best">408</span></td>
+<td><span class="best">413</span></td>
+<td>397</td>
+<td><span class="best">402</span></td>
+<td>6</td>
+<td><span class="best">6.30</span></td>
+<td>140</td>
+<td>155</td>
+</tr>, <tr id="1d7d7330-cf5b-41f1-b4b4-51cbfaee21bc">
+<td>17.</td>
+<td class="bank">
+<img align="left" alt="CIRAN-METAQS-342-2" border="0" height="16" src="https://rate.am/images/organization/logo/5546abb6ab79478096f71375b7584ec8.jpg" width="32"/><a href="/ru/exchange-point/ciran-metaqs-342-2">ЦИРАН МЕТАКС</a></td>
+<td>
+<a class="favS" href="/login.aspx" onmouseover="shTT(this, 'favTXT')"><img alt="star" height="16" src="../images/s.png" width="16"/><span></span></a></td>
+<td><a href="/ru/exchange-point/ciran-metaqs-342-2">1</a></td>
+<td class="date">11 Окт, 16:50</td>
+<td><span class="best">408</span></td>
+<td><span class="best">413</span></td>
+<td>397</td>
+<td>403</td>
+<td>6</td>
+<td><span class="best">6.30</span></td>
+<td>145</td>
+<td>155</td>
+</tr>, <tr id="a828ee99-f27e-4b16-b5f2-42d9cf68aeb8">
+<td>18.</td>
+<td class="bank">
+<img align="left" alt="NORTH-AVENUE-HOTEL-618-A" border="0" height="16" src="https://rate.am/images/organization/logo/196fc50094a342afa199d608f0f066f5.jpg" width="32"/><a href="/ru/exchange-point/north-avenue-hotel-618-a">Отель Норт Авеню</a></td>
+<td>
+<a class="favS" href="/login.aspx" onmouseover="shTT(this, 'favTXT')"><img alt="star" height="16" src="../images/s.png" width="16"/><span></span></a></td>
+<td><a href="/ru/exchange-point/north-avenue-hotel-618-a">1</a></td>
+<td class="date">11 Окт, 16:50</td>
+<td><span class="best">408</span></td>
+<td>414</td>
+<td>395</td>
+<td>404</td>
+<td>6</td>
+<td>6.40</td>
+<td>140</td>
+<td>155</td>
+</tr>, <tr id="78a9a5d7-d368-42f7-ad2f-0f4bb7be8b1a">
+<td>19.</td>
+<td class="bank">
+<img align="left" alt="MG-Davtashen-858" border="0" height="16" src="https://rate.am/images/organization/logo/fd23766357a94532b50aa9b029ea53e0.png" width="32"/><a href="/ru/exchange-point/mg-davtashen-858">MG Դավթաշեն
+</a></td>
+<td>
+<a class="favS" href="/login.aspx" onmouseover="shTT(this, 'favTXT')"><img alt="star" height="16" src="../images/s.png" width="16"/><span></span></a></td>
+<td><a href="/ru/exchange-point/mg-davtashen-858">1</a></td>
+<td class="date">11 Окт, 16:49</td>
+<td><span class="best">408</span></td>
+<td><span class="best">413</span></td>
+<td>397</td>
+<td>403</td>
+<td>6</td>
+<td><span class="best">6.30</span></td>
+<td>146</td>
+<td>153</td>
+</tr>, <tr id="f8119a86-1f86-4099-9593-f69e23bdb494">
+<td>20.</td>
+<td class="bank">
+<img align="left" alt="VIVA-3rd-mas-hraparak-369" border="0" height="16" src="https://rate.am/images/organization/logo/fbc43530f16b4f05829e465ca971ef82.png" width="32"/><a href="/ru/exchange-point/viva-3rd-mas-hraparak-369">viva 3-րդ մաս հրապար..</a></td>
+<td>
+<a class="favS" href="/login.aspx" onmouseover="shTT(this, 'favTXT')"><img alt="star" height="16" src="../images/s.png" width="16"/><span></span></a></td>
+<td><a href="/ru/exchange-point/viva-3rd-mas-hraparak-369">1</a></td>
+<td class="date">11 Окт, 16:47</td>
+<td><span class="best">408</span></td>
+<td><span class="best">413</span></td>
+<td>397</td>
+<td><span class="best">402</span></td>
+<td>6</td>
+<td><span class="best">6.30</span></td>
+<td><span class="best">147</span></td>
+<td>154</td>
+</tr>, <tr id="2a6abd36-7a06-4e70-a94f-bac33eca313a">
+<td>21.</td>
+<td class="bank">
+<img align="left" alt="GURMENIA-Tumanyan-857-A" border="0" height="16" src="https://rate.am/images/organization/logo/EA3470C3-7718-4955-BB4F-0353D8F42752.png" width="32"/><a href="/ru/exchange-point/gurmenia-tumanyan-857-a">GURMENIA Tumanyan</a></td>
+<td>
+<a class="favS" href="/login.aspx" onmouseover="shTT(this, 'favTXT')"><img alt="star" height="16" src="../images/s.png" width="16"/><span></span></a></td>
+<td><a href="/ru/exchange-point/gurmenia-tumanyan-857-a">1</a></td>
+<td class="date">11 Окт, 16:46</td>
+<td><span class="best">408</span></td>
+<td><span class="best">413</span></td>
+<td>395</td>
+<td>403</td>
+<td>6</td>
+<td><span class="best">6.30</span></td>
+<td>145</td>
+<td>155</td>
+</tr>, <tr id="d9842b45-5c7b-4f87-9d6d-860f5310344f">
+<td>22.</td>
+<td class="bank">
+<img align="left" alt="TSOVAGYUGH-SUPERMARKET-840" border="0" height="16" src="https://rate.am/images/organization/logo/eda052c6ee354158ab3bdec699c10019.jpg" width="32"/><a href="/ru/exchange-point/tsovagyugh-supermarket-840">TSOVAGYUGH SUPERMARK..</a></td>
+<td>
+<a class="favS" href="/login.aspx" onmouseover="shTT(this, 'favTXT')"><img alt="star" height="16" src="../images/s.png" width="16"/><span></span></a></td>
+<td><a href="/ru/exchange-point/tsovagyugh-supermarket-840">1</a></td>
+<td class="date">11 Окт, 16:45</td>
+<td><span class="best">408</span></td>
+<td><span class="best">413</span></td>
+<td>395</td>
+<td>404</td>
+<td>6</td>
+<td><span class="best">6.30</span></td>
+<td>145</td>
+<td>153</td>
+</tr>, <tr id="6f330706-0bbd-4dbd-a375-5da8ec6608a3">
+<td>23.</td>
+<td class="bank">
+<img align="left" alt="AGORA-851-A" border="0" height="16" src="https://rate.am/images/organization/logo/1f481ef5d42b48b9975434978551734e.jpg" width="32"/><a href="/ru/exchange-point/agora-851-a">AGORA</a></td>
+<td>
+<a class="favS" href="/login.aspx" onmouseover="shTT(this, 'favTXT')"><img alt="star" height="16" src="../images/s.png" width="16"/><span></span></a></td>
+<td><a href="/ru/exchange-point/agora-851-a">1</a></td>
+<td class="date">11 Окт, 16:45</td>
+<td><span class="best">408</span></td>
+<td>414</td>
+<td>395</td>
+<td>403</td>
+<td>6</td>
+<td><span class="best">6.30</span></td>
+<td>140</td>
+<td>155</td>
+</tr>, <tr id="2cb6fa8f-2d6f-421f-b9d7-373e94505185">
+<td>24.</td>
+<td class="bank">
+<img align="left" alt="Komitas1-EREVAN-CITY-823-18" border="0" height="16" src="https://rate.am/images/organization/logo/d32d663bf69249ba96195aa1ea6c7d99.jpg" width="32"/><a href="/ru/exchange-point/komitas1-erevan-city-823-18">ԿԱՍՅԱՆ CITY</a></td>
+<td>
+<a class="favS" href="/login.aspx" onmouseover="shTT(this, 'favTXT')"><img alt="star" height="16" src="../images/s.png" width="16"/><span></span></a></td>
+<td><a href="/ru/exchange-point/komitas1-erevan-city-823-18">1</a></td>
+<td class="date">11 Окт, 16:44</td>
+<td><span class="best">408</span></td>
+<td><span class="best">413</span></td>
+<td>397</td>
+<td>403</td>
+<td>6</td>
+<td>6.40</td>
+<td>140</td>
+<td>160</td>
+</tr>, <tr id="540123e5-0a1d-4e77-a3d7-4bab1ea3ec25">
+<td>25.</td>
+<td class="bank">
+<img align="left" alt="GUAVA-841" border="0" height="16" src="https://rate.am/images/organization/logo/9674ac75f26c4f31870ffd14288af666.jpg" width="32"/><a href="/ru/exchange-point/guava-841">GUAVA</a></td>
+<td>
+<a class="favS" href="/login.aspx" onmouseover="shTT(this, 'favTXT')"><img alt="star" height="16" src="../images/s.png" width="16"/><span></span></a></td>
+<td><a href="/ru/exchange-point/guava-841">1</a></td>
+<td class="date">11 Окт, 16:39</td>
+<td><span class="best">408</span></td>
+<td><span class="best">413</span></td>
+<td>395</td>
+<td>404</td>
+<td>6</td>
+<td><span class="best">6.30</span></td>
+<td>140</td>
+<td>155</td>
+</tr>, <tr id="b014be21-7ce3-458b-934c-4d9df1813636">
+<td>26.</td>
+<td class="bank">
+<img align="left" alt="Komitas-51-693" border="0" height="16" src="https://rate.am/images/organization/logo/2ec5deeaed9f4c4784668b3a1e249d92.jpg" width="32"/><a href="/ru/exchange-point/komitas-51-693">Комитас 51</a></td>
+<td>
+<a class="favS" href="/login.aspx" onmouseover="shTT(this, 'favTXT')"><img alt="star" height="16" src="../images/s.png" width="16"/><span></span></a></td>
+<td><a href="/ru/exchange-point/komitas-51-693">1</a></td>
+<td class="date">11 Окт, 16:31</td>
+<td><span class="best">408</span></td>
+<td><span class="best">413</span></td>
+<td>395</td>
+<td>403</td>
+<td>6</td>
+<td><span class="best">6.30</span></td>
+<td>142</td>
+<td>155</td>
+</tr>, <tr id="84180a37-b837-489c-9590-297d1838bb36">
+<td>27.</td>
+<td class="bank">
+<img align="left" alt="Komitas-63-524-A" border="0" height="16" src="https://rate.am/images/organization/logo/ca7cb02916d7498fb78de471cabb11f7.jpg" width="32"/><a href="/ru/exchange-point/komitas-63-524-a">Комитаса 63</a></td>
+<td>
+<a class="favS" href="/login.aspx" onmouseover="shTT(this, 'favTXT')"><img alt="star" height="16" src="../images/s.png" width="16"/><span></span></a></td>
+<td><a href="/ru/exchange-point/komitas-63-524-a">1</a></td>
+<td class="date">11 Окт, 16:30</td>
+<td><span class="best">408</span></td>
+<td><span class="best">413</span></td>
+<td>395</td>
+<td>403</td>
+<td>6</td>
+<td><span class="best">6.30</span></td>
+<td>142</td>
+<td>155</td>
+</tr>, <tr id="acb2f42b-d7d5-487d-a68d-b626f4c434e5">
+<td>28.</td>
+<td class="bank">
+<img align="left" alt="Sanfud-LLC-856" border="0" height="16" src="https://rate.am/images/organization/logo/aaf4b0daab6c4ba5aca980f58e8776e1.jpg" width="32"/><a href="/ru/exchange-point/sanfud-llc-856">ООО Санфуд</a></td>
+<td>
+<a class="favS" href="/login.aspx" onmouseover="shTT(this, 'favTXT')"><img alt="star" height="16" src="../images/s.png" width="16"/><span></span></a></td>
+<td><a href="/ru/exchange-point/sanfud-llc-856">1</a></td>
+<td class="date">11 Окт, 16:25</td>
+<td><span class="best">408</span></td>
+<td><span class="best">413</span></td>
+<td>397</td>
+<td>403</td>
+<td>6</td>
+<td><span class="best">6.30</span></td>
+<td><span class="best">147</span></td>
+<td>155</td>
+</tr>, <tr id="668597df-67ee-45e1-9699-60fa8bd4fe8c">
+<td>29.</td>
+<td class="bank">
+<img align="left" alt="TONAVAChAR-MALATIA-418-A" border="0" height="16" src="https://rate.am/images/organization/logo/7607f86adbcf44a7bd6c21a7906500e5.jpg" width="32"/><a href="/ru/exchange-point/tonavachar-malatia-418-a">ЯРМАРНАЯ МАЛАТИЯ</a></td>
+<td>
+<a class="favS" href="/login.aspx" onmouseover="shTT(this, 'favTXT')"><img alt="star" height="16" src="../images/s.png" width="16"/><span></span></a></td>
+<td><a href="/ru/exchange-point/tonavachar-malatia-418-a">1</a></td>
+<td class="date">11 Окт, 16:21</td>
+<td><span class="best">408</span></td>
+<td><span class="best">413</span></td>
+<td><span class="best">398</span></td>
+<td>403</td>
+<td>6.05</td>
+<td><span class="best">6.30</span></td>
+<td>145</td>
+<td><span class="best">150</span></td>
+</tr>, <tr id="f9ec7867-bc60-43cb-a51e-89e09b93cd06">
+<td>30.</td>
+<td class="bank">
+<img align="left" alt="Nor-Zovk-3rd-Masiv-189-A" border="0" height="16" src="https://rate.am/images/organization/logo/00247cd5eb7f46f08e9e5acbcff3c3a6.jpg" width="32"/><a href="/ru/exchange-point/nor-zovk-3rd-masiv-189-a">Նոր Զովք 3-րդ Մասիվ</a></td>
+<td>
+<a class="favS" href="/login.aspx" onmouseover="shTT(this, 'favTXT')"><img alt="star" height="16" src="../images/s.png" width="16"/><span></span></a></td>
+<td><a href="/ru/exchange-point/nor-zovk-3rd-masiv-189-a">1</a></td>
+<td class="date">11 Окт, 16:14</td>
+<td><span class="best">408</span></td>
+<td><span class="best">413</span></td>
+<td>397</td>
+<td>403</td>
+<td>6</td>
+<td><span class="best">6.30</span></td>
+<td><span class="best">147</span></td>
+<td>155</td>
+</tr>, <tr id="356db9ef-34bc-4327-b1f7-5b5b07b6be7c">
+<td>31.</td>
+<td class="bank">
+<img align="left" alt="TOSP-Supermarket-834-A" border="0" height="16" src="https://rate.am/images/organization/logo/ef4a017ec9c74d18b132488234d6e553.jpg" width="32"/><a href="/ru/exchange-point/tosp-supermarket-834-a">TOSP Supermarket</a></td>
+<td>
+<a class="favS" href="/login.aspx" onmouseover="shTT(this, 'favTXT')"><img alt="star" height="16" src="../images/s.png" width="16"/><span></span></a></td>
+<td><a href="/ru/exchange-point/tosp-supermarket-834-a">1</a></td>
+<td class="date">11 Окт, 16:09</td>
+<td><span class="best">408</span></td>
+<td><span class="best">413</span></td>
+<td>397</td>
+<td>403</td>
+<td>6</td>
+<td><span class="best">6.30</span></td>
+<td>145</td>
+<td>155</td>
+</tr>, <tr id="42825346-48dd-4974-b3b6-6400e98c8091">
+<td>32.</td>
+<td class="bank">
+<img align="left" alt="AVAN-ARINDj-606-A" border="0" height="16" src="https://rate.am/images/organization/logo/64525f4f966044e2a0f9db34dbe640f0.jpg" width="32"/><a href="/ru/exchange-point/avan-arindj-606-a">АВАН АРИНДЖ</a></td>
+<td>
+<a class="favS" href="/login.aspx" onmouseover="shTT(this, 'favTXT')"><img alt="star" height="16" src="../images/s.png" width="16"/><span></span></a></td>
+<td><a href="/ru/exchange-point/avan-arindj-606-a">1</a></td>
+<td class="date">11 Окт, 16:06</td>
+<td><span class="best">408</span></td>
+<td><span class="best">413</span></td>
+<td>396</td>
+<td><span class="best">402</span></td>
+<td>6</td>
+<td><span class="best">6.30</span></td>
+<td>144</td>
+<td>152</td>
+</tr>, <tr id="ctl00_Content_RB_adverstmentTR" style="margin: 20px; border: none;">
+<td colspan="13" style="border: none; padding: 10px; background-color: #EEF2F4; text-align: left;">Մեկ և ավելի ժամ առաջ թարմացված փոխարժեքներ</td>
+</tr>, <tr id="b38cae18-fe13-431e-8897-441959a9b509">
+<td class="old-rates">1.</td>
+<td class="bank">
+<img align="left" alt="AREV-2rd-Masiv-723" border="0" height="16" src="https://rate.am/images/organization/logo/ce64cd64137149d6ae642998ab7a8dfb.jpg" width="32"/><a href="/ru/exchange-point/arev-2rd-masiv-723">ԱՐԵՎ 2-րդ Մասիվ</a></td>
+<td class="old-rates">
+<a class="favS" href="/login.aspx" onmouseover="shTT(this, 'favTXT')"><img alt="star" height="16" src="../images/s.png" width="16"/><span></span></a></td>
+<td style="opacity: 0.4;"><a href="/ru/exchange-point/arev-2rd-masiv-723">1</a></td>
+<td class="date" style="opacity: 0.4;">11 Окт, 16:00</td>
+<td style="opacity: 0.4;">407</td>
+<td style="opacity: 0.4;">413</td>
+<td style="opacity: 0.4;">393</td>
+<td style="opacity: 0.4;">402</td>
+<td style="opacity: 0.4;">6</td>
+<td style="opacity: 0.4;">6.30</td>
+<td style="opacity: 0.4;">140</td>
+<td style="opacity: 0.4;">155</td>
+</tr>, <tr id="e7666f86-765d-479d-8d1d-2d101df2d551">
+<td class="old-rates">2.</td>
+<td class="bank">
+<img align="left" alt="H-Qochar-16-1-491" border="0" height="16" src="https://rate.am/images/organization/logo/6d3ea2f2a196462382b410e9f84025a8.jpg" width="32"/><a href="/ru/exchange-point/h-qochar-16-1-491">Հ. Քոչար 16/1</a></td>
+<td class="old-rates">
+<a class="favS" href="/login.aspx" onmouseover="shTT(this, 'favTXT')"><img alt="star" height="16" src="../images/s.png" width="16"/><span></span></a></td>
+<td style="opacity: 0.4;"><a href="/ru/exchange-point/h-qochar-16-1-491">1</a></td>
+<td class="date" style="opacity: 0.4;">11 Окт, 15:55</td>
+<td style="opacity: 0.4;">408</td>
+<td style="opacity: 0.4;">413</td>
+<td style="opacity: 0.4;">397</td>
+<td style="opacity: 0.4;">402</td>
+<td style="opacity: 0.4;">6.05</td>
+<td style="opacity: 0.4;">6.30</td>
+<td style="opacity: 0.4;">145</td>
+<td style="opacity: 0.4;">155</td>
+</tr>, <tr id="7cd1fdf4-22b7-4124-939b-cd21590e9771">
+<td class="old-rates">3.</td>
+<td class="bank">
+<img align="left" alt="Gagik-Dheryan-377-A" border="0" height="16" src="https://rate.am/images/organization/logo/e3a40051a9e649e29894b022aab2b39a.png" width="32"/><a href="/ru/exchange-point/gagik-dheryan-377-a">Гагик Дгерян</a></td>
+<td class="old-rates">
+<a class="favS" href="/login.aspx" onmouseover="shTT(this, 'favTXT')"><img alt="star" height="16" src="../images/s.png" width="16"/><span></span></a></td>
+<td style="opacity: 0.4;"><a href="/ru/exchange-point/gagik-dheryan-377-a">1</a></td>
+<td class="date" style="opacity: 0.4;">11 Окт, 15:50</td>
+<td style="opacity: 0.4;">408</td>
+<td style="opacity: 0.4;">413</td>
+<td style="opacity: 0.4;">397</td>
+<td style="opacity: 0.4;">403</td>
+<td style="opacity: 0.4;">6</td>
+<td style="opacity: 0.4;">6.30</td>
+<td style="opacity: 0.4;">147</td>
+<td style="opacity: 0.4;">154</td>
+</tr>, <tr id="8d5740d7-1c62-439a-97b9-782745f4b6d2">
+<td class="old-rates">4.</td>
+<td class="bank">
+<img align="left" alt="SARYAN-12-710-A" border="0" height="16" src="https://rate.am/images/organization/logo/786d04cd8e0f4c67ac82190f4730a06a.jpg" width="32"/><a href="/ru/exchange-point/saryan-12-710-a">Левон Аванесян</a></td>
+<td class="old-rates">
+<a class="favS" href="/login.aspx" onmouseover="shTT(this, 'favTXT')"><img alt="star" height="16" src="../images/s.png" width="16"/><span></span></a></td>
+<td style="opacity: 0.4;"><a href="/ru/exchange-point/saryan-12-710-a">1</a></td>
+<td class="date" style="opacity: 0.4;">11 Окт, 15:35</td>
+<td style="opacity: 0.4;">408</td>
+<td style="opacity: 0.4;">413</td>
+<td style="opacity: 0.4;">398</td>
+<td style="opacity: 0.4;">403</td>
+<td style="opacity: 0.4;">6.10</td>
+<td style="opacity: 0.4;">6.30</td>
+<td style="opacity: 0.4;">145</td>
+<td style="opacity: 0.4;">155</td>
+</tr>, <tr id="05b710f6-3cbb-4d24-a61e-2a17e620290a">
+<td class="old-rates">5.</td>
+<td class="bank">
+<img align="left" alt="Tashir-Strit-Hyusisayin-839" border="0" height="16" src="https://rate.am/images/organization/logo/7e62162a1d5049f5a62ec7b2b7691e15.jpg" width="32"/><a href="/ru/exchange-point/tashir-strit-hyusisayin-839">Ташир стрит Северний</a></td>
+<td class="old-rates">
+<a class="favS" href="/login.aspx" onmouseover="shTT(this, 'favTXT')"><img alt="star" height="16" src="../images/s.png" width="16"/><span></span></a></td>
+<td style="opacity: 0.4;"><a href="/ru/exchange-point/tashir-strit-hyusisayin-839">1</a></td>
+<td class="date" style="opacity: 0.4;">11 Окт, 15:24</td>
+<td style="opacity: 0.4;">408</td>
+<td style="opacity: 0.4;">413</td>
+<td style="opacity: 0.4;">397</td>
+<td style="opacity: 0.4;">403</td>
+<td style="opacity: 0.4;">6.10</td>
+<td style="opacity: 0.4;">6.35</td>
+<td style="opacity: 0.4;">140</td>
+<td style="opacity: 0.4;">155</td>
+</tr>, <tr id="a942e2e3-6bcc-4096-a118-f64ad74de4e9">
+<td class="old-rates">6.</td>
+<td class="bank">
+<img align="left" alt="VEGA-UORLD-LLC-769" border="0" height="16" src="https://rate.am/images/organization/logo/b17e038f85734a94bac3bf12bf32afca.jpg" width="32"/><a href="/ru/exchange-point/vega-uorld-llc-769">ՎԵԳԱ ՈՒՈՐԼԴ ՍՊԸ</a></td>
+<td class="old-rates">
+<a class="favS" href="/login.aspx" onmouseover="shTT(this, 'favTXT')"><img alt="star" height="16" src="../images/s.png" width="16"/><span></span></a></td>
+<td style="opacity: 0.4;"><a href="/ru/exchange-point/vega-uorld-llc-769">1</a></td>
+<td class="date" style="opacity: 0.4;">11 Окт, 15:05</td>
+<td style="opacity: 0.4;">408</td>
+<td style="opacity: 0.4;">413</td>
+<td style="opacity: 0.4;">398</td>
+<td style="opacity: 0.4;">405</td>
+<td style="opacity: 0.4;">6</td>
+<td style="opacity: 0.4;">6.30</td>
+<td style="opacity: 0.4;"></td>
+<td style="opacity: 0.4;"></td>
+</tr>, <tr id="53949ee2-8746-46dc-b3b1-fa6a1eb93353">
+<td class="old-rates">7.</td>
+<td class="bank">
+<img align="left" alt="Tigran-Mec-10-823-1-A" border="0" height="16" src="https://rate.am/images/organization/logo/ae96fda31e554eb884092c65929ed534.PNG" width="32"/><a href="/ru/exchange-point/tigran-mec-10-823-1-a">Тиграна Меца 10</a></td>
+<td class="old-rates">
+<a class="favS" href="/login.aspx" onmouseover="shTT(this, 'favTXT')"><img alt="star" height="16" src="../images/s.png" width="16"/><span></span></a></td>
+<td style="opacity: 0.4;"><a href="/ru/exchange-point/tigran-mec-10-823-1-a">1</a></td>
+<td class="date" style="opacity: 0.4;">11 Окт, 15:04</td>
+<td style="opacity: 0.4;"></td>
+<td style="opacity: 0.4;"></td>
+<td style="opacity: 0.4;"></td>
+<td style="opacity: 0.4;"></td>
+<td style="opacity: 0.4;"></td>
+<td style="opacity: 0.4;"></td>
+<td style="opacity: 0.4;"></td>
+<td style="opacity: 0.4;"></td>
+</tr>, <tr id="81bff146-1754-41b6-b10f-e7edde2d3bd5">
+<td class="old-rates">8.</td>
+<td class="bank">
+<img align="left" alt="AGORA-5rd-masiv" border="0" height="16" src="https://rate.am/images/organization/logo/9142d32e2714439fab58e01683267bb4.jpg" width="32"/><a href="/ru/exchange-point/agora-5rd-masiv">AGORA 5-րդ մասիվ</a></td>
+<td class="old-rates">
+<a class="favS" href="/login.aspx" onmouseover="shTT(this, 'favTXT')"><img alt="star" height="16" src="../images/s.png" width="16"/><span></span></a></td>
+<td style="opacity: 0.4;"><a href="/ru/exchange-point/agora-5rd-masiv">1</a></td>
+<td class="date" style="opacity: 0.4;">11 Окт, 13:30</td>
+<td style="opacity: 0.4;">408</td>
+<td style="opacity: 0.4;">413</td>
+<td style="opacity: 0.4;">395</td>
+<td style="opacity: 0.4;">403</td>
+<td style="opacity: 0.4;">6</td>
+<td style="opacity: 0.4;">6.30</td>
+<td style="opacity: 0.4;">140</td>
+<td style="opacity: 0.4;">155</td>
+</tr>, <tr id="f8a4c5a2-071d-4e95-b9be-bc7b953e2dba">
+<td class="old-rates">9.</td>
+<td class="bank">
+<img align="left" alt="MALATIA-ShUKA-816-A" border="0" height="16" src="https://rate.am/images/organization/logo/b33498b353e74629a3d6fc546788c1cf.png" width="32"/><a href="/ru/exchange-point/malatia-shuka-816-a">Malatia Shuka</a></td>
+<td class="old-rates">
+<a class="favS" href="/login.aspx" onmouseover="shTT(this, 'favTXT')"><img alt="star" height="16" src="../images/s.png" width="16"/><span></span></a></td>
+<td style="opacity: 0.4;"><a href="/ru/exchange-point/malatia-shuka-816-a">1</a></td>
+<td class="date" style="opacity: 0.4;">11 Окт, 13:08</td>
+<td style="opacity: 0.4;"></td>
+<td style="opacity: 0.4;"></td>
+<td style="opacity: 0.4;"></td>
+<td style="opacity: 0.4;"></td>
+<td style="opacity: 0.4;"></td>
+<td style="opacity: 0.4;"></td>
+<td style="opacity: 0.4;">147</td>
+<td style="opacity: 0.4;">150</td>
+</tr>, <tr id="a9122e50-9119-4973-ad11-8d611be0fffc">
+<td class="old-rates">10.</td>
+<td class="bank">
+<img align="left" alt="RAYKOM-HAGUSTI-238" border="0" height="16" src="https://rate.am/images/organization/logo/1cbd2b3da7a343d4aee2e25c5cdde304.jpg" width="32"/><a href="/ru/exchange-point/raykom-hagusti-238">Կարինե Առաքելյան</a></td>
+<td class="old-rates">
+<a class="favS" href="/login.aspx" onmouseover="shTT(this, 'favTXT')"><img alt="star" height="16" src="../images/s.png" width="16"/><span></span></a></td>
+<td style="opacity: 0.4;"><a href="/ru/exchange-point/raykom-hagusti-238">1</a></td>
+<td class="date" style="opacity: 0.4;">11 Окт, 13:06</td>
+<td style="opacity: 0.4;">408</td>
+<td style="opacity: 0.4;">413</td>
+<td style="opacity: 0.4;">397</td>
+<td style="opacity: 0.4;">403</td>
+<td style="opacity: 0.4;">6.10</td>
+<td style="opacity: 0.4;">6.30</td>
+<td style="opacity: 0.4;">145</td>
+<td style="opacity: 0.4;">155</td>
+</tr>, <tr id="bc256f11-7835-4a58-b951-1fa90436c53a">
+<td class="old-rates">11.</td>
+<td class="bank">
+<img align="left" alt="KARAPET-KhAChATRYAN-625" border="0" height="16" src="https://rate.am/images/organization/logo/55739daabf724114984d34249100bb4d.jpg" width="32"/><a href="/ru/exchange-point/karapet-khachatryan-625">Կարապետ Խաչատրյան</a></td>
+<td class="old-rates">
+<a class="favS" href="/login.aspx" onmouseover="shTT(this, 'favTXT')"><img alt="star" height="16" src="../images/s.png" width="16"/><span></span></a></td>
+<td style="opacity: 0.4;"><a href="/ru/exchange-point/karapet-khachatryan-625">1</a></td>
+<td class="date" style="opacity: 0.4;">11 Окт, 13:05</td>
+<td style="opacity: 0.4;">408</td>
+<td style="opacity: 0.4;">413</td>
+<td style="opacity: 0.4;">397</td>
+<td style="opacity: 0.4;">403</td>
+<td style="opacity: 0.4;">6.10</td>
+<td style="opacity: 0.4;">6.30</td>
+<td style="opacity: 0.4;">145</td>
+<td style="opacity: 0.4;">155</td>
+</tr>, <tr id="af444188-d475-4fc4-8fe1-8f19e8059cba">
+<td class="old-rates">12.</td>
+<td class="bank">
+<img align="left" alt="IMPERIUM-PLAZA-797" border="0" height="16" src="https://rate.am/images/organization/logo/ad7ba6b95f0d450d89aea4ee3d89d82e.jpg" width="32"/><a href="/ru/exchange-point/imperium-plaza-797">IMPERIUM PLAZA</a></td>
+<td class="old-rates">
+<a class="favS" href="/login.aspx" onmouseover="shTT(this, 'favTXT')"><img alt="star" height="16" src="../images/s.png" width="16"/><span></span></a></td>
+<td style="opacity: 0.4;"><a href="/ru/exchange-point/imperium-plaza-797">1</a></td>
+<td class="date" style="opacity: 0.4;">11 Окт, 12:34</td>
+<td style="opacity: 0.4;"></td>
+<td style="opacity: 0.4;"></td>
+<td style="opacity: 0.4;"></td>
+<td style="opacity: 0.4;"></td>
+<td style="opacity: 0.4;"></td>
+<td style="opacity: 0.4;"></td>
+<td style="opacity: 0.4;"></td>
+<td style="opacity: 0.4;"></td>
+</tr>, <tr id="28df6a8e-800f-419c-aab4-ca5be357a87f">
+<td class="old-rates">13.</td>
+<td class="bank">
+<img align="left" alt="ZEYTUN-823-10" border="0" height="16" src="https://rate.am/images/organization/logo/0bb9c93e90f549bca2d0ea72b2d82ba1.jpg" width="32"/><a href="/ru/exchange-point/zeytun-823-10">ЗЕЙТУН</a></td>
+<td class="old-rates">
+<a class="favS" href="/login.aspx" onmouseover="shTT(this, 'favTXT')"><img alt="star" height="16" src="../images/s.png" width="16"/><span></span></a></td>
+<td style="opacity: 0.4;"><a href="/ru/exchange-point/zeytun-823-10">1</a></td>
+<td class="date" style="opacity: 0.4;">11 Окт, 11:34</td>
+<td style="opacity: 0.4;"></td>
+<td style="opacity: 0.4;"></td>
+<td style="opacity: 0.4;"></td>
+<td style="opacity: 0.4;"></td>
+<td style="opacity: 0.4;"></td>
+<td style="opacity: 0.4;"></td>
+<td style="opacity: 0.4;"></td>
+<td style="opacity: 0.4;"></td>
+</tr>]
+
+
+
+<tr id="ctl00_Content_RB_adverstmentTR" style="margin: 20px; border: none;">
+<td colspan="13" style="border: none; padding: 10px; background-color: #EEF2F4; text-align: left;">Մեկ և ավելի ժամ առաջ թարմացված փոխարժեքներ</td>
+</tr>
